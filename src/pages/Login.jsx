@@ -1,11 +1,12 @@
 import React from 'react';
-import '../styles/Login.scss';
+import '@styles/Login.scss';
+import logo_yard_sale from '@logos/logo_yard_sale.svg';
 
 const login = () => {
   return (
     <div className="login">
       <div className="form-container">
-        <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
+        <img src={logo_yard_sale} alt="logo" class="logo" />
         <h1 className="title">Create a new password</h1>
         <p className="subtitle">Enter a new passwrd for yue account</p>
         <form action="/" className="form">
