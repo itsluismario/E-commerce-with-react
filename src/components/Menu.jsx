@@ -3,10 +3,10 @@ import '@styles/Menu.scss';
 
 function Menu() {
   return (
-    <div class="desktop-menu">
+    <div className="Menu">
       <ul>
         <li>
-          <a href="/" class="title">
+          <a href="/" className="title">
             My orders
           </a>
         </li>
