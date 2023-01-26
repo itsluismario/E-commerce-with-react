@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import '@styles/ProductItem.scss';
-import AppContex from '@context/AppContext';
+import AppContex from '../context/AppContext';
 import addToCartImage from '@icons/bt_add_to_cart.svg';
 
 const ProductItem = ({product}) => {
@@ -21,7 +21,6 @@ const ProductItem = ({product}) => {
 				<figure onClick={() => handleClick(product)}>
 					<img src={addToCartImage} alt="" />
 				</figure>
-				{cart}
 			</div>
 		</div>
 	);
